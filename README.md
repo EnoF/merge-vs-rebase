@@ -8,3 +8,11 @@ To display the advantages of rebasing over merging, I would need to add some mor
 ##Jumping
 This paragraph will display that even when you have multiple commits, the you will not need to resolve the same conflict
 more than once.
+
+To test this run the following commands:
+
+    git clone git@github.com:EnoF/merge-vs-rebase.git
+    cd merge-vs-rebase
+    git checkout -b rebase-test origin/jumping
+    git rebase origin/master
+    
