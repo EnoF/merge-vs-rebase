@@ -16,6 +16,13 @@ Lets wrap everything up and get all branches together in `merge` style and `reba
 ###Merge
 
     git checkout -b merge-final origin/master
-    git merge intromod
-    git merge introcon
-    git merge jumping
+    git merge origin/intromod
+    git merge origin/introcon
+    git merge origin/jumping
+
+###Rebase
+
+    git checkout -b rebase-final origin/jumping
+    git rebase origin/introcon
+    git rebase origin/jumping
+    git rebase origin/master
