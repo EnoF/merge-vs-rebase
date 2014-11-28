@@ -12,10 +12,15 @@ commit, we will create some commits in between. The merge commit will have sever
  * Your history will not be able to rebase before the merge commit without a force push
 
 
+To test this we will do it for both `merge` and `rebase`. Lets first start with a merge.
+
+    git checkout -b merge-intro origin/master
+    git merge origin/intromod
+    git merge origin/introcon
+
 The branch `jumping` will be 
 having a conflict with this introduction paragraph for the first commit. The rest of the commits should not contain any 
-further conflicts.
-##Finalize
+further conflicts.##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
 
 ###Merge
