@@ -38,6 +38,13 @@ To test this run the following commands:
     git checkout -b rebase-test origin/jumping
     git rebase origin/master
     
+The rebase will prompt you with a conflict. Resolve the conflict by adding the `introduction` first and the `jumping`
+changes below. Then run:
+
+    git rebase --continue
+
+Notice that when you modify the line of the conflict once again, you will have to resolve the `original` conflict again.
+    
 ##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
 
