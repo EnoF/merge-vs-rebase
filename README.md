@@ -25,7 +25,11 @@ Now lets test a `rebase`:
 
 The branch `jumping` will be 
 having a conflict with this introduction paragraph for the first commit. The rest of the commits should not contain any 
-further conflicts.##Finalize
+further conflicts.
+
+##Jumping
+
+##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
 
 ###Merge
