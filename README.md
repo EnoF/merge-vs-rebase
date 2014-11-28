@@ -9,7 +9,7 @@ To display the advantages of rebasing over merging, I would need to add some mor
 This introduction paragraph will be modified by the branch `intromod` and `introcon`. To display the effect an merge 
 commit, we will create some commits in between. The merge commit will have several effects on your git history:
  * Your history will display multiple history lines
- * Your history will not be able to rebase before the merge commit
+ * Your history will not be able to rebase before the merge commit without a force push
 
 
 The branch `jumping` will be 
