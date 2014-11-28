@@ -15,6 +15,9 @@ commit, we will create some commits in between. The merge commit will have sever
 The branch `jumping` will be 
 having a conflict with this introduction paragraph for the first commit. The rest of the commits should not contain any 
 further conflicts.
+
+##Jumping
+
 ##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
 
@@ -31,3 +34,4 @@ Lets wrap everything up and get all branches together in `merge` style and `reba
     git rebase origin/introcon
     git rebase origin/jumping
     git rebase origin/master
+To display the advantages of rebasing over merging, I would need to add some more content to this `README.md`.
