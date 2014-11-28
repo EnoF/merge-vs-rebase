@@ -22,3 +22,7 @@ changes below. Then run:
     git rebase --continue
 
 Notice that when you modify the line of the conflict once again, you will have to resolve the `original` conflict again.
+
+To avoid such redundant commits, you can kill the unnecessary commit. In this example, the commit should be squashed
+with the initial commit changing the header to fit the actual need. You will benefit of a cleaner history and the merge 
+conflicts will be easily resolvable due to the small change sets per commits.
