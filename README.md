@@ -28,6 +28,8 @@ having a conflict with this introduction paragraph for the first commit. The res
 further conflicts.
 
 ##Jumping
+This paragraph will display that even when you have multiple commits, the you will not need to resolve the same conflict
+more than once.
 
 ##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
