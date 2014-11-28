@@ -16,7 +16,7 @@ The branch `jumping` will be
 having a conflict with this introduction paragraph for the first commit. The rest of the commits should not contain any 
 further conflicts.
 
-##Jumping
+##The Jump
 This paragraph will display that even when you have multiple commits, the you will not need to resolve the same conflict
 more than once.
 
