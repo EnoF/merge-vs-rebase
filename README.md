@@ -31,6 +31,13 @@ further conflicts.
 This paragraph will display that even when you have multiple commits, the you will not need to resolve the same conflict
 more than once.
 
+To test this run the following commands:
+
+    git clone git@github.com:EnoF/merge-vs-rebase.git
+    cd merge-vs-rebase
+    git checkout -b rebase-test origin/jumping
+    git rebase origin/master
+    
 ##Finalize
 Lets wrap everything up and get all branches together in `merge` style and `rebase` style.
 
